@@ -1,0 +1,21 @@
+{
+  "name": "yearclock",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.4.1",
+    "parcel": "^2.4.1",
+    "prettier": "^2.6.1"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
